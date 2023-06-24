@@ -1,0 +1,13 @@
+name: Glashelmthing
+version: '${project.version}'
+main: jakkuhh.me.glashelmthing.Glashelmthing
+api-version: 1.19
+authors: [ jakuh ]
+description:
+  :heart: makes rainbow helm
+website: jaack.host
+commands:
+  helmet:
+    description: opens inventory
+    aliases: ci
+
