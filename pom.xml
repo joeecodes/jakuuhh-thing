@@ -41,7 +41,14 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <relocations>
+                                <relocation>
+                                    <pattern>games.negative.framework</pattern>
+                                    <shadedPattern>jakkuhh.me.glashelmthing</shadedPattern>
+                                </relocation>
+                            </relocations>
                         </configuration>
+
                     </execution>
                 </executions>
             </plugin>
